@@ -60,7 +60,13 @@ img {
 
 .header__logo {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo img {
+  max-width: 150px;
 }
 
 .header__list {
@@ -134,7 +140,6 @@ img {
 }
 
 .content__main {
-  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
